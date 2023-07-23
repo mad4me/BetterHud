@@ -5,21 +5,23 @@
 	"name": "BetterHUD",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"Mad4Me"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/mad4me/BetterHud"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/better-hud/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.mad4me.betterhud.ExampleMod"
+          "net.mad4me.betterhud.BetterHud"
+		],
+		"client": [
+          "net.mad4me.betterhud.BetterHudClient"
 		],
 		"fabric-datagen": [
-			"net.mad4me.betterhud.ExampleModDataGenerator"
+			"net.mad4me.betterhud.BetterHudDataGenerator"
 		]
 	},
 	"mixins": [
